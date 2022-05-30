@@ -1,0 +1,199 @@
+/* GENERAL */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* Utilities */
+
+    li{list-style-type: none;}
+
+    a{text-decoration: none;}
+
+    .gray{
+        color: hsl(219, 9%, 45%)
+    }
+
+    .orange{
+        color: hsl(26, 100%, 55%);
+    }
+
+    .orangebg{
+        background-color: hsl(26, 100%, 55%);
+    }
+
+    .bold{
+        font-weight: 700;
+    }
+
+    .light{
+        font-weight: 400;
+    }
+
+    .lg-blue{
+        color: hsl(220, 14%, 75%);
+        text-decoration: line-through;
+    }
+
+/* ---------------------------------------------------------------- */
+
+
+/* HEADER */
+
+    header{
+        display: flex;
+        justify-content: center;
+        padding: 16px 0;
+    }
+
+    /*Nav*/
+
+    nav{
+        display: flex;
+        align-items: center;
+        width: 80%;
+        justify-content: space-between;
+        padding: 16px 0 32px;
+        border-bottom: 1px hsl(234, 9%, 77%) solid;
+    }
+
+    nav ul{
+        display: flex;
+        width: 100%;
+        padding-left: 3%;
+        gap: 2em;
+    }
+ 
+    nav ul li a{
+        color: hsl(219, 9%, 45%);
+    }
+
+    nav div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cart-profile{
+        display: flex;
+        align-items: center;
+    }
+
+    .carello{ 
+        width: 25px;
+        height: 25px;
+        margin-right: 2em;
+    }
+
+    .profile-round  {width: 50px;}
+
+/* ---------------------------------------------------------------- */
+
+
+/* MAIN */
+
+    /* Carousel and images */
+
+    main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container{
+        width: 74%;
+        display: flex;
+        justify-content: start;
+        padding-top: 80px;
+        gap: 8em;
+    }
+
+    .img-carousel{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .big{
+        background-color: red;
+        width: 27em;
+        height: 450px;
+        border-radius: 15px;
+    }
+
+    .carousel{
+        width: 27em;
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 0;
+    }
+
+    .carousel div{
+        background-color: red;
+        width: 5.5em;
+        height: 5.5em;
+        border-radius: 15px;
+    }
+
+    /* Product and Cart */
+
+    .products-price-cart>h3,h1,h5,h2{
+        width: 50%;
+    }
+
+    .products-price-cart h4.orange{
+        padding-bottom: 0.5em;
+    }
+
+    .products-price-cart h1{
+        padding-bottom: 1em;
+    }
+
+    .products-price-cart h2{
+        padding-bottom: 0.3em;
+    }
+
+    .products-price-cart h5{
+        padding-bottom: 1.3em;
+        line-height: 24px;
+    }
+
+    .cart{
+        padding-top: 1.3em;
+    }
+
+    .products-price-cart{
+        padding-top: 70px;
+    }
+
+    .cart{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .cart div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 30%;
+        border-radius: 8px;
+    }
+
+    .addcartt{
+        display: flex;
+        justify-content: center;
+        gap:1em;
+        width: 60%;
+        align-items: center;
+        padding: 16px 16px;
+        border-radius: 8px;
+        border: none;
+        color: #fff;
+    }
+
+    .addcartt img{
+        width: 15px;
+    }
+
