@@ -62,15 +62,15 @@
 
             <div class="img-carousel" id="parte-sx">
 
-                <div class="big">
+                <div class="big" id="bigbox">
 
                 </div>
 
                 <div class="carousel">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div class="small sm1" id="box1"></div>
+                    <div class="small sm2" id="box2"></div>
+                    <div class="small sm3" id="box3"></div>
+                    <div class="small sm4" id="box4"></div>
                 </div>
 
             </div>
@@ -87,11 +87,18 @@
                 <h2>$125.00</h2> <!-- after 50%-->
                 <h5 class="lg-blue">$250.00</h5>
 
-                <div class="cart">
+                <div class="cart" style="display: flex; align-items: center;">
                     <div>
-                        <img src="./assets/img/icon-minus.svg" alt="" id="minus">
-                        <p id="counter" class="bold">0</p>
-                        <img src="./assets/img/icon-plus.svg" alt="" id="plus">
+                        <button type="button" id="minus" style="border: none;display: flex;">
+                            <img src="./assets/img/icon-minus.svg" alt="">
+                        </button>
+
+                        <span id="counter" class="bold">0</span>
+
+                        <button type="button" id="plus" style="border:none;">
+                            <img src="./assets/img/icon-plus.svg" alt="" >
+                        </button>
+
                     </div>
                     <button id="addcart" class="addcartt orangebg">
                         <img src="./assets/img/icon-cart-white.svg" alt="">

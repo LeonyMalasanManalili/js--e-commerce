@@ -38,6 +38,10 @@
         text-decoration: line-through;
     }
 
+    .sm-opacity{
+        background: rgba(255,255,255,0.7);
+    }
+
 /* ---------------------------------------------------------------- */
 
 
@@ -87,6 +91,10 @@
         margin-right: 2em;
     }
 
+    .carello:hover{
+        cursor: pointer;
+    }
+
     .profile-round  {width: 50px;}
 
 /* ---------------------------------------------------------------- */
@@ -118,7 +126,7 @@
     .big{
         background-color: red;
         width: 27em;
-        height: 450px;
+        height: 420px;
         border-radius: 15px;
     }
 
@@ -129,12 +137,33 @@
         padding: 24px 0;
     }
 
-    .carousel div{
-        background-color: red;
+    .carousel .small{
         width: 5.5em;
         height: 5.5em;
         border-radius: 15px;
+        background-size: cover;
     }
+
+    .sm1{
+        background-image: url(./assets/img/image-product-1-thumbnail.jpg);
+    }
+
+    .sm2{
+        background-image: url(./assets/img/image-product-2-thumbnail.jpg);
+    }
+
+    .sm3{
+        background-image: url(./assets/img/image-product-3-thumbnail.jpg);
+    }
+
+    .sm4{
+        background-image: url(./assets/img/image-product-4-thumbnail.jpg);
+    }
+
+    .carousel .small:hover{
+        cursor: pointer;
+    }
+
 
     /* Product and Cart */
 
@@ -159,8 +188,14 @@
         line-height: 24px;
     }
 
-    .cart{
-        padding-top: 1.3em;
+    .products-price-cart h2::after{
+
+        content: "50%";
+        font-size: 14px;
+        color: hsl(26, 100%, 55%);
+        padding-left: 2em;
+        position: relative;
+        bottom: 4px;
     }
 
     .products-price-cart{
@@ -171,6 +206,7 @@
         display: flex;
         justify-content: space-between;
         width: 50%;
+        padding-top: 1.3em;
     }
 
     .cart div{
@@ -179,6 +215,10 @@
         align-items: center;
         width: 30%;
         border-radius: 8px;
+    }
+
+    .cart div img{
+        cursor: pointer;
     }
 
     .addcartt{
@@ -191,6 +231,10 @@
         border-radius: 8px;
         border: none;
         color: #fff;
+    }
+
+    .addcartt:hover{
+        cursor: pointer;
     }
 
     .addcartt img{
