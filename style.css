@@ -43,6 +43,9 @@
         border: 3px solid hsl(26, 81%, 46%);
     }
 
+    .d-none{
+        display: none;
+    }
 
 /* ---------------------------------------------------------------- */
 
@@ -126,7 +129,6 @@
     }
 
     .big{
-        background-color: red;
         width: 27em;
         height: 420px;
         border-radius: 15px;
@@ -139,14 +141,13 @@
         padding: 24px 0;
     }
 
-    .carousel .small{
+    .small{
         width: 5.5em;
         height: 5.5em;
         border-radius: 15px;
-        background-size: cover;
     }
 
-    .sm1{
+    /* .sm1{
         background-image: url(./assets/img/image-product-1-thumbnail.jpg);
     }
 
@@ -160,7 +161,7 @@
 
     .sm4{
         background-image: url(./assets/img/image-product-4-thumbnail.jpg);
-    }
+    } */
 
     .carousel .small:hover{
         cursor: pointer;
